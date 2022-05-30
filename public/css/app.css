@@ -1,1 +1,117 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@500&display=swap);
+/* FONTS */
+
+html {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 25px;
+    color: #C15956;
+    align-content: center;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* HEADER */
+.menu {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    background-color: #C15956;
+    font-size: 18px;
+}
+
+.menu li a {
+    color: rgba(255, 255, 255, 0.644);
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+/* HEADER CLOSE */
+.contenido {
+
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+.centro {
+    display: flex;
+
+}
+
+.mural1 {
+    flex: 50%;
+    background: url(/images/mujeres.png?727a2b5174337581073771d67c630227);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 200px;
+}
+
+.text1 {
+    flex: 50%;
+    margin-top: 30px;
+    padding-right: 10%;
+}
+
+.mural2 {
+    flex: 50%;
+    background: url(/images/mujeresinversion.png?1318fb3c28390b2e32d57af38431518f);
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 200px;
+
+}
+
+.text2 {
+    flex: 50%;
+    margin-left: 2%;
+}
+
+.mural3 {
+    background: url(/images/fem.png?f079c7c82d7dfe150bc393cf7aacfa34);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+
+}
+
+.text3 {
+    margin-top: 60px;
+    padding-left: 10%;
+}
+
+.mural4 {
+    flex: 60%;
+    background: url(/images/siren.png?f37d5a0acb692c9f4a703e49d2a5905a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 300px;
+
+}
+
+.text4 {
+    flex: 40%;
+    margin-top: 50px;
+    padding-left: 10%;
+}
+
+
+@media screen and (min-width: 520px) {
+    .menu {
+        display: flex;
+    }
+}
 
